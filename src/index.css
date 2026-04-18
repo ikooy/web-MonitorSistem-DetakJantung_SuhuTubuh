@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .font-sans {
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    }
+}
+
+body {
+    background-color: #f8fafc;
+    color: #0f172a;
+}
