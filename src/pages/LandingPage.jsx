@@ -68,7 +68,7 @@ export default function LandingPage() {
               name="nama"
               value={formData.nama}
               onChange={handleInputChange}
-              placeholder="Contoh: Budi Santoso"
+              placeholder="Contoh: Rifky Ganteng"
               className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
               autoFocus
             />
@@ -83,7 +83,7 @@ export default function LandingPage() {
               name="usia"
               value={formData.usia}
               onChange={handleInputChange}
-              placeholder="Contoh: 25"
+              placeholder="Contoh: 18"
               min="1"
               max="120"
               className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
