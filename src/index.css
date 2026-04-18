@@ -10,3 +10,98 @@ body {
     background-color: #f8fafc;
     color: #0f172a;
 }
+
+/* ============================================ */
+/* RESPONSIVE UNTUK HP (LAYAR KECIL) */
+/* ============================================ */
+
+/* Ukuran HP (max-width: 640px) */
+@media (max-width: 640px) {
+    
+    /* Perkecil padding container */
+    .px-4 {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+    
+    .py-8 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    /* Perkecil font size besar */
+    .text-5xl {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+    }
+    
+    .text-4xl {
+        font-size: 1.5rem !important;
+    }
+    
+    .text-2xl {
+        font-size: 1.25rem !important;
+    }
+    
+    /* Perkecil padding card */
+    .rounded-2xl {
+        border-radius: 0.75rem !important;
+    }
+    
+    .p-6 {
+        padding: 1rem !important;
+    }
+    
+    .p-8 {
+        padding: 1rem !important;
+    }
+    
+    /* Perkecil gap antar elemen */
+    .gap-6 {
+        gap: 0.75rem !important;
+    }
+    
+    .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+        margin-top: 1rem !important;
+    }
+    
+    /* Grafik lebih pendek */
+    .h-64 {
+        height: 180px !important;
+    }
+    
+    /* Card KPI */
+    .grid-cols-1.md\:grid-cols-2 {
+        gap: 0.75rem !important;
+    }
+    
+    /* Font lebih kecil di card */
+    .font-semibold.text-slate-700 {
+        font-size: 0.875rem !important;
+    }
+    
+    /* Tombol lebih kecil */
+    button {
+        font-size: 0.75rem !important;
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+}
+
+/* ============================================ */
+/* RESPONSIVE UNTUK TABLET (LAYAR SEDANG) */
+/* ============================================ */
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .text-5xl {
+        font-size: 2.5rem !important;
+    }
+    
+    .h-64 {
+        height: 220px !important;
+    }
+    
+    .gap-6 {
+        gap: 1rem !important;
+    }
+}
