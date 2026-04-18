@@ -105,3 +105,32 @@ body {
         gap: 1rem !important;
     }
 }
+
+/* ============================================ */
+/* KHUSUS TABEL RIWAYAT DI HP */
+/* ============================================ */
+
+@media (max-width: 640px) {
+    /* Biarkan tabel bisa digeser horizontal */
+    .overflow-x-auto {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+    
+    /* Perkecil font dan padding tabel */
+    table {
+        min-width: 500px !important;
+        font-size: 0.7rem !important;
+    }
+    
+    th, td {
+        padding: 0.5rem 0.25rem !important;
+    }
+    
+    /* Sembunyikan kolom yang kurang penting di HP */
+    th:nth-child(2), td:nth-child(2),  /* kolom Waktu */
+    th:nth-child(4), td:nth-child(4),  /* kolom Usia */
+    th:nth-child(5), td:nth-child(5) { /* kolom JK */
+        display: none !important;
+    }
+}
